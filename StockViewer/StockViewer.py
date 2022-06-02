@@ -1,5 +1,8 @@
 import yfinance as yf
+from pprint import pprint
 
+
+#this method was replaced by pprint
 def add_linebreaks (s, col_width = 120):
 
   s_out = ""
@@ -33,8 +36,7 @@ for ticker in tickers.tickers.values():
   print(f"{ticker.info['longName']} ({ticker.info['exchange']})")
 
   summary = ticker.info['longBusinessSummary']
-  summary = add_linebreaks(summary)
-  print(summary)
+  pprint(summary)
   print()
 
   period_code, period_name = valid_options[option.upper()]
