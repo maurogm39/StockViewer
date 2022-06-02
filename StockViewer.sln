@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "StockViewer", "StockViewer\StockViewer.pyproj", "{C1ABDE69-8B70-4540-BD5B-BA81910BE35F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1ABDE69-8B70-4540-BD5B-BA81910BE35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1ABDE69-8B70-4540-BD5B-BA81910BE35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACD58002-CC2C-4AA8-95CA-501F1168C663}
+	EndGlobalSection
+EndGlobal
